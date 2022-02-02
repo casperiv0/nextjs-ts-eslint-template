@@ -2,8 +2,11 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -13,7 +16,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -22,21 +24,34 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
-
     "baseUrl": ".",
     "paths": {
-      "lib/*": ["./src/lib/*"],
-      "styles/*": ["./src/styles/*"],
-      "components/*": ["./src/components/*"],
-      "types/*": ["./src/types/*"]
-    }
+      "lib/*": [
+        "./src/lib/*"
+      ],
+      "styles/*": [
+        "./src/styles/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "types/*": [
+        "./src/types/*"
+      ]
+    },
+    "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
