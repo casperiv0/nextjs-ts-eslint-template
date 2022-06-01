@@ -12,15 +12,15 @@
   },
   "dependencies": {
     "next": "^12.1.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "devDependencies": {
     "@casper124578/eslint-config": "^4.1.0",
     "@casper124578/eslint-config-next": "^4.4.0",
     "@casper124578/eslint-config-react": "^4.3.0",
     "@types/node": "^17.0.38",
-    "@types/react": "^17.0.43",
+    "@types/react": "^18.0.10",
     "@types/react-dom": "^17.0.14",
     "eslint": "^8.14.0",
     "preact": "^10.7.3",
