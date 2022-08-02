@@ -20,7 +20,7 @@
     "@casper124578/eslint-config-next": "^4.4.0",
     "@casper124578/eslint-config-react": "^4.4.0",
     "@types/node": "^18.0.0",
-    "@types/react": "^18.0.14",
+    "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.5",
     "eslint": "^8.18.0",
     "preact": "^10.8.2",
