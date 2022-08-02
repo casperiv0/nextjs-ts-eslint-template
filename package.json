@@ -22,7 +22,7 @@
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.5",
-    "eslint": "^8.18.0",
+    "eslint": "^8.21.0",
     "preact": "^10.8.2",
     "prettier": "^2.7.1",
     "sass": "^1.54.0",
