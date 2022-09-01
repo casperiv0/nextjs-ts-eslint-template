@@ -17,5 +17,8 @@
     "ecmaFeatures": {
       "jsx": true
     }
+  },
+  "rules": {
+    "@next/next/no-server-import-in-page": "off"
   }
 }
