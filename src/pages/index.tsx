@@ -1,14 +1,13 @@
 import Head from "next/head";
-import styles from "styles/home.module.scss";
 
 export default function Index() {
   return (
-    <>
+    <main className="p-10">
       <Head>
         <title>Hello world!</title>
       </Head>
 
-      <h1 className={styles.title}>Hello world!</h1>
-    </>
+      <h1 className="text-3xl font-bold">Hello world!</h1>
+    </main>
   );
 }
